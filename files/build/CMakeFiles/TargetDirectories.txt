@@ -1,0 +1,4 @@
+/home/navelan.e/Desktop/files/build/CMakeFiles/mylib.dir
+/home/navelan.e/Desktop/files/build/CMakeFiles/main.dir
+/home/navelan.e/Desktop/files/build/CMakeFiles/edit_cache.dir
+/home/navelan.e/Desktop/files/build/CMakeFiles/rebuild_cache.dir

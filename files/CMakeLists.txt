@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.22.1)
+project(myproject)
+add_library(mylib STATIC my_lib.c)
+# set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static")
+add_executable(main mymain.c)
+target_link_libraries(main PRIVATE mylib)
