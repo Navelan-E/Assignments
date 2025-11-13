@@ -1,0 +1,11 @@
+
+  635  gcc -c ../my_lib.c -o my_lib.o
+  636  ar rsc libmy_lib.a my_lib.o
+  637  gcc -o main ../mymain.c -L. -lmy_lib -static
+  638  ./main
+  639  file main
+  ??????????
+  621  gcc -fPIC -c ../my_lib.c        
+  622  gcc -shared -o libmy_lib.so my_lib.o 
+  631  gcc -o main ../mymain.c -L. -lmy_lib -Wl,-rpath=$(pwd)
+  632  ./main
